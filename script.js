@@ -69,7 +69,7 @@ function deleteTask(index){
 
 // delete all tasks function
 deleteAllBtn.onclick = ()=>{
-  if(confirm("Apakah yakin ingin menghapus list ini?")){
+  if(confirm("Apakah yakin ingin menghapus semua list?")){
     let getLocalStorageData = localStorage.getItem("New Todo"); //getting localstorage
     if(getLocalStorageData == null){ //if localstorage has no data
       listArray = []; //create a blank array
